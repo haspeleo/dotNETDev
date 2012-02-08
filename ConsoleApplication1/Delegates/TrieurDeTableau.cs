@@ -9,7 +9,7 @@ namespace Delegates
     {
         private delegate void delegateTri(int[] tableau);
 
-        private void trierEtAfficher(int[] tableau, delegateTri methodeDeTri) {
+        private void trierEtAfficher(int[] tableau, Action<int[]> methodeDeTri) {
 
             methodeDeTri(tableau);
             foreach (int i in tableau)

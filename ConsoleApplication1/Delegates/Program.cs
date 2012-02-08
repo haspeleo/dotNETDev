@@ -11,14 +11,16 @@ namespace Delegates
         {
             Console.WriteLine(DateTime.Now);
             Console.Beep();
-            Console.WriteLine("delegate, events and lambda expressions ====================================");
+            Console.WriteLine("\n delegates =================================================");
 
             int[] tableau = new int[] { 12, 1, 8, 4, 6, 9, 10};
             new TrieurDeTableau().demoTri(tableau);
 
 
+            Console.WriteLine("\n delegates Action and Func==================================");
+            new Operations().demoOperations();
 
-
+            Console.WriteLine("\n lambdas expressions =======================================");
             Console.WriteLine("\nPress a key to exit ...");
             Console.ReadKey(); 
         }
