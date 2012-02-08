@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d3feb9c4-863e-4365-b528-168bc0f104e2" name="Rob@DELL755 2009-12-15 11:30:24" runUser="Dell755\Rob" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="29727845-de75-4103-ae1d-ba5c9eb14311">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Projects\MoqRepositorySample\TestProject1\bin\Debug\TestResults\Rob_DELL755 2009-12-15 11_30_24" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-12-15T11:30:24.2232652-05:00" queuing="2009-12-15T11:30:24.7832659-05:00" start="2009-12-15T11:30:24.8532660-05:00" finish="2009-12-15T11:30:25.3332667-05:00" />
+  <TestDefinitions>
+    <UnitTest name="CanReturnProductById" storage="c:\projects\moqrepositorysample\testproject1\bin\debug\testproject1.dll" id="a2360188-f970-3b3c-1c1e-166f4ccadc1c">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="e31e389f-4bb1-4fa8-ae79-964e577ba1d7" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:/Projects/MoqRepositorySample/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanReturnProductById" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a2360188-f970-3b3c-1c1e-166f4ccadc1c" executionId="e31e389f-4bb1-4fa8-ae79-964e577ba1d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e31e389f-4bb1-4fa8-ae79-964e577ba1d7" testId="a2360188-f970-3b3c-1c1e-166f4ccadc1c" testName="CanReturnProductById" computerName="DELL755" duration="00:00:00.3694968" startTime="2009-12-15T11:30:24.8732661-05:00" endTime="2009-12-15T11:30:25.2932667-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

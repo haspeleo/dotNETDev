@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="08438db8-2137-4686-812b-b52e1e4a82a6" name="doghmen@VMPC 2012-02-07 20:09:24" runUser="VMPC\doghmen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local Test Run" id="29727845-de75-4103-ae1d-ba5c9eb14311">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="doghmen_VMPC 2012-02-07 20_09_24">
+      <DeploymentItem filename="Y:\dotNETDev\MoqRepositorySample\MoqRepositorySample\Assemblies\Moq.dll" />
+      <DeploymentItem filename="Y:\dotNETDev\MoqRepositorySample\MoqRepositorySample\bin\Debug\MoqRepositorySample.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-07T20:09:24.8398437+01:00" queuing="2012-02-07T20:09:25.5302734+01:00" start="2012-02-07T20:09:25.6894531+01:00" finish="2012-02-07T20:09:26.3769531+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CanInsertProduct" storage="y:\dotnetdev\moqrepositorysample\testproject1\bin\debug\testproject1.dll" id="179226b6-1421-37bf-020e-b21e318ead09">
+      <Execution id="68177bbb-db8b-4214-98eb-1fc3b0fea0f7" />
+      <TestMethod codeBase="Y:/dotNETDev/MoqRepositorySample/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanInsertProduct" />
+    </UnitTest>
+    <UnitTest name="CanUpdateProduct" storage="y:\dotnetdev\moqrepositorysample\testproject1\bin\debug\testproject1.dll" id="166b4fb7-f858-99c9-bafa-17ccec3eb374">
+      <Execution id="d130e8fb-0eb8-4638-84bb-8d75fa211c40" />
+      <TestMethod codeBase="Y:/dotNETDev/MoqRepositorySample/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanUpdateProduct" />
+    </UnitTest>
+    <UnitTest name="CanReturnProductByName" storage="y:\dotnetdev\moqrepositorysample\testproject1\bin\debug\testproject1.dll" id="1dc7c257-ade4-8661-773c-a929c635350e">
+      <Execution id="8636b364-af5e-429b-bae6-2f7d0166df13" />
+      <TestMethod codeBase="Y:/dotNETDev/MoqRepositorySample/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanReturnProductByName" />
+    </UnitTest>
+    <UnitTest name="CanReturnAllProducts" storage="y:\dotnetdev\moqrepositorysample\testproject1\bin\debug\testproject1.dll" id="48839b40-8afb-9601-4ae1-800a88b58f0e">
+      <Execution id="a71dd3ec-deee-4c8d-b582-35b3d7d01441" />
+      <TestMethod codeBase="Y:/dotNETDev/MoqRepositorySample/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanReturnAllProducts" />
+    </UnitTest>
+    <UnitTest name="CanReturnProductById" storage="y:\dotnetdev\moqrepositorysample\testproject1\bin\debug\testproject1.dll" id="a2360188-f970-3b3c-1c1e-166f4ccadc1c">
+      <Execution id="d53a8754-0a94-4034-905c-b98988c8f6ce" />
+      <TestMethod codeBase="Y:/dotNETDev/MoqRepositorySample/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanReturnProductById" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="166b4fb7-f858-99c9-bafa-17ccec3eb374" executionId="d130e8fb-0eb8-4638-84bb-8d75fa211c40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="179226b6-1421-37bf-020e-b21e318ead09" executionId="68177bbb-db8b-4214-98eb-1fc3b0fea0f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1dc7c257-ade4-8661-773c-a929c635350e" executionId="8636b364-af5e-429b-bae6-2f7d0166df13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48839b40-8afb-9601-4ae1-800a88b58f0e" executionId="a71dd3ec-deee-4c8d-b582-35b3d7d01441" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2360188-f970-3b3c-1c1e-166f4ccadc1c" executionId="d53a8754-0a94-4034-905c-b98988c8f6ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d130e8fb-0eb8-4638-84bb-8d75fa211c40" testId="166b4fb7-f858-99c9-bafa-17ccec3eb374" testName="CanUpdateProduct" computerName="VMPC" duration="00:00:00.1678504" startTime="2012-02-07T20:09:25.7412109+01:00" endTime="2012-02-07T20:09:26.2128906+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d130e8fb-0eb8-4638-84bb-8d75fa211c40">
+    </UnitTestResult>
+    <UnitTestResult executionId="68177bbb-db8b-4214-98eb-1fc3b0fea0f7" testId="179226b6-1421-37bf-020e-b21e318ead09" testName="CanInsertProduct" computerName="VMPC" duration="00:00:00.0038564" startTime="2012-02-07T20:09:26.2246093+01:00" endTime="2012-02-07T20:09:26.2324218+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68177bbb-db8b-4214-98eb-1fc3b0fea0f7">
+    </UnitTestResult>
+    <UnitTestResult executionId="8636b364-af5e-429b-bae6-2f7d0166df13" testId="1dc7c257-ade4-8661-773c-a929c635350e" testName="CanReturnProductByName" computerName="VMPC" duration="00:00:00.0017107" startTime="2012-02-07T20:09:26.2402343+01:00" endTime="2012-02-07T20:09:26.2460937+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8636b364-af5e-429b-bae6-2f7d0166df13">
+    </UnitTestResult>
+    <UnitTestResult executionId="a71dd3ec-deee-4c8d-b582-35b3d7d01441" testId="48839b40-8afb-9601-4ae1-800a88b58f0e" testName="CanReturnAllProducts" computerName="VMPC" duration="00:00:00.0017074" startTime="2012-02-07T20:09:26.2500000+01:00" endTime="2012-02-07T20:09:26.2558593+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a71dd3ec-deee-4c8d-b582-35b3d7d01441">
+    </UnitTestResult>
+    <UnitTestResult executionId="d53a8754-0a94-4034-905c-b98988c8f6ce" testId="a2360188-f970-3b3c-1c1e-166f4ccadc1c" testName="CanReturnProductById" computerName="VMPC" duration="00:00:00.0031309" startTime="2012-02-07T20:09:26.2587890+01:00" endTime="2012-02-07T20:09:26.2646484+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d53a8754-0a94-4034-905c-b98988c8f6ce">
+    </UnitTestResult>
+  </Results>
+</TestRun>

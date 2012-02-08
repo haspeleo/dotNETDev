@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MoqRepositorySample">
+</Property><Property Name="Solution File" Value="Y:\dotNETDev\MoqRepositorySample\MoqRepositorySample.sln">
+</Property><Property Name="Date" Value="mardi 7 février 2012">
+</Property><Property Name="Time" Value="20:08">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MoqRepositorySample.sln" Description="File successfully backed up as Y:\dotNETDev\MoqRepositorySample\Backup\MoqRepositorySample.sln">
+</Event><Event ErrorLevel="0" Project="MoqRepositorySample" Source="MoqRepositorySample\MoqRepositorySample.csproj" Description="Project file successfully backed up as Y:\dotNETDev\MoqRepositorySample\Backup\MoqRepositorySample\MoqRepositorySample.csproj">
+</Event><Event ErrorLevel="0" Project="MoqRepositorySample" Source="MoqRepositorySample\IProductRepository.cs" Description="File successfully backed up as Y:\dotNETDev\MoqRepositorySample\Backup\MoqRepositorySample\IProductRepository.cs">
+</Event><Event ErrorLevel="0" Project="MoqRepositorySample" Source="MoqRepositorySample\Product.cs" Description="File successfully backed up as Y:\dotNETDev\MoqRepositorySample\Backup\MoqRepositorySample\Product.cs">
+</Event><Event ErrorLevel="0" Project="MoqRepositorySample" Source="MoqRepositorySample\ProductRepository.cs" Description="File successfully backed up as Y:\dotNETDev\MoqRepositorySample\Backup\MoqRepositorySample\ProductRepository.cs">
+</Event><Event ErrorLevel="0" Project="MoqRepositorySample" Source="MoqRepositorySample\Properties\AssemblyInfo.cs" Description="File successfully backed up as Y:\dotNETDev\MoqRepositorySample\Backup\MoqRepositorySample\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="MoqRepositorySample" Source="MoqRepositorySample\Assemblies\Moq.dll" Description="File successfully backed up as Y:\dotNETDev\MoqRepositorySample\Backup\MoqRepositorySample\Assemblies\Moq.dll">
+</Event><Event ErrorLevel="0" Project="MoqRepositorySample" Source="MoqRepositorySample\Assemblies\Moq.pdb" Description="File successfully backed up as Y:\dotNETDev\MoqRepositorySample\Backup\MoqRepositorySample\Assemblies\Moq.pdb">
+</Event><Event ErrorLevel="0" Project="MoqRepositorySample" Source="MoqRepositorySample\Assemblies\Moq.xml" Description="File successfully backed up as Y:\dotNETDev\MoqRepositorySample\Backup\MoqRepositorySample\Assemblies\Moq.xml">
+</Event><Event ErrorLevel="0" Project="MoqRepositorySample" Source="MoqRepositorySample\MoqRepositorySample.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MoqRepositorySample" Source="MoqRepositorySample\MoqRepositorySample.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TestProject1" Source="TestProject1\TestProject1.csproj" Description="Project file successfully backed up as Y:\dotNETDev\MoqRepositorySample\Backup\TestProject1\TestProject1.csproj">
+</Event><Event ErrorLevel="0" Project="TestProject1" Source="TestProject1\Properties\AssemblyInfo.cs" Description="File successfully backed up as Y:\dotNETDev\MoqRepositorySample\Backup\TestProject1\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="TestProject1" Source="TestProject1\UnitTest1.cs" Description="File successfully backed up as Y:\dotNETDev\MoqRepositorySample\Backup\TestProject1\UnitTest1.cs">
+</Event><Event ErrorLevel="0" Project="TestProject1" Source="TestProject1\AuthoringTests.txt" Description="File successfully backed up as Y:\dotNETDev\MoqRepositorySample\Backup\TestProject1\AuthoringTests.txt">
+</Event><Event ErrorLevel="0" Project="TestProject1" Source="TestProject1\TestProject1.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TestProject1" Source="TestProject1\TestProject1.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MoqRepositorySample.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MoqRepositorySample.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MoqRepositorySample" Source="MoqRepositorySample\MoqRepositorySample.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="3" Project="" Source="LocalTestRun.testrunconfig" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LocalTestRun.testrunconfig" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="MoqRepositorySample.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MoqRepositorySample.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="0" Project="TestProject1" Source="TestProject1\TestProject1.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

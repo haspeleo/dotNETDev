@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="33a2d8be-03e6-47f1-bd01-f03998173542" name="Rob@DELL755 2009-12-15 11:45:08" runUser="Dell755\Rob" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="29727845-de75-4103-ae1d-ba5c9eb14311">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Projects\MoqRepositorySample\TestProject1\bin\Debug\TestResults\Rob_DELL755 2009-12-15 11_45_08" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-12-15T11:45:08.6528760-05:00" queuing="2009-12-15T11:45:09.1648779-05:00" start="2009-12-15T11:45:09.2248780-05:00" finish="2009-12-15T11:45:09.6368798-05:00" />
+  <TestDefinitions>
+    <UnitTest name="CanReturnAllProducts" storage="c:\projects\moqrepositorysample\testproject1\bin\debug\testproject1.dll" id="48839b40-8afb-9601-4ae1-800a88b58f0e">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="09937c1f-2359-4d6d-81ae-9e23349adaf2" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:/Projects/MoqRepositorySample/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanReturnAllProducts" />
+    </UnitTest>
+    <UnitTest name="CanUpdateProduct" storage="c:\projects\moqrepositorysample\testproject1\bin\debug\testproject1.dll" id="166b4fb7-f858-99c9-bafa-17ccec3eb374">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="5a60fcd0-6cc7-44a2-ab19-b3fb4c198578" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:/Projects/MoqRepositorySample/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanUpdateProduct" />
+    </UnitTest>
+    <UnitTest name="CanReturnProductByName" storage="c:\projects\moqrepositorysample\testproject1\bin\debug\testproject1.dll" id="1dc7c257-ade4-8661-773c-a929c635350e">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="df97e0fc-b1a8-4ad1-9183-853fffecabd2" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:/Projects/MoqRepositorySample/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanReturnProductByName" />
+    </UnitTest>
+    <UnitTest name="CanInsertProduct" storage="c:\projects\moqrepositorysample\testproject1\bin\debug\testproject1.dll" id="179226b6-1421-37bf-020e-b21e318ead09">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="442f977c-4403-4923-b210-26c534eb7fff" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:/Projects/MoqRepositorySample/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanInsertProduct" />
+    </UnitTest>
+    <UnitTest name="CanReturnProductById" storage="c:\projects\moqrepositorysample\testproject1\bin\debug\testproject1.dll" id="a2360188-f970-3b3c-1c1e-166f4ccadc1c">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="daadc27e-c574-4932-9c68-3a7a32cf7bf9" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:/Projects/MoqRepositorySample/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanReturnProductById" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="179226b6-1421-37bf-020e-b21e318ead09" executionId="442f977c-4403-4923-b210-26c534eb7fff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48839b40-8afb-9601-4ae1-800a88b58f0e" executionId="09937c1f-2359-4d6d-81ae-9e23349adaf2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2360188-f970-3b3c-1c1e-166f4ccadc1c" executionId="daadc27e-c574-4932-9c68-3a7a32cf7bf9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1dc7c257-ade4-8661-773c-a929c635350e" executionId="df97e0fc-b1a8-4ad1-9183-853fffecabd2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="166b4fb7-f858-99c9-bafa-17ccec3eb374" executionId="5a60fcd0-6cc7-44a2-ab19-b3fb4c198578" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="442f977c-4403-4923-b210-26c534eb7fff" testId="179226b6-1421-37bf-020e-b21e318ead09" testName="CanInsertProduct" computerName="DELL755" duration="00:00:00.2790412" startTime="2009-12-15T11:45:09.2548781-05:00" endTime="2009-12-15T11:45:09.5768797-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="09937c1f-2359-4d6d-81ae-9e23349adaf2" testId="48839b40-8afb-9601-4ae1-800a88b58f0e" testName="CanReturnAllProducts" computerName="DELL755" duration="00:00:00.0071722" startTime="2009-12-15T11:45:09.5868798-05:00" endTime="2009-12-15T11:45:09.5968798-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="daadc27e-c574-4932-9c68-3a7a32cf7bf9" testId="a2360188-f970-3b3c-1c1e-166f4ccadc1c" testName="CanReturnProductById" computerName="DELL755" duration="00:00:00.0038845" startTime="2009-12-15T11:45:09.5968798-05:00" endTime="2009-12-15T11:45:09.5968798-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="df97e0fc-b1a8-4ad1-9183-853fffecabd2" testId="1dc7c257-ade4-8661-773c-a929c635350e" testName="CanReturnProductByName" computerName="DELL755" duration="00:00:00.0020387" startTime="2009-12-15T11:45:09.5968798-05:00" endTime="2009-12-15T11:45:09.6068798-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5a60fcd0-6cc7-44a2-ab19-b3fb4c198578" testId="166b4fb7-f858-99c9-bafa-17ccec3eb374" testName="CanUpdateProduct" computerName="DELL755" duration="00:00:00.0058838" startTime="2009-12-15T11:45:09.6068798-05:00" endTime="2009-12-15T11:45:09.6068798-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
