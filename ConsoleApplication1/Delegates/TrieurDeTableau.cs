@@ -9,6 +9,16 @@ namespace Delegates
     {
         private delegate void delegateTri(int[] tableau);
 
+        private void trierEtAfficher(int[] tableau, delegateTri methodeDeTri) {
+
+            methodeDeTri(tableau);
+            foreach (int i in tableau)
+            {
+                Console.Write(" - " + i);
+            }
+        
+        }
+
         private void triAscendant(int[] tableau) {
 
             Array.Sort(tableau);
@@ -17,6 +27,21 @@ namespace Delegates
         private void triDescendant(int[] tableau) {
             Array.Sort(tableau);
             Array.Reverse(tableau);
+        }
+
+        public void demoTri(int[] tableau) {
+
+            Console.WriteLine("\n--> tri Ascendant ");
+
+            trierEtAfficher(tableau, delegate(int [] tab) {
+                triAscendant(tab);
+            });
+
+            Console.WriteLine("\n--> tri Descendant ");
+
+            trierEtAfficher(tableau, delegate(int[] tab) { //delegate to an anonymous method
+                triDescendant(tab);
+            }); 
         }
     }
 }
