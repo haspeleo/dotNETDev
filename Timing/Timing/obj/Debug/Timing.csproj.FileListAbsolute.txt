@@ -1,0 +1,6 @@
+Y:\dotNETDev\Timing\Timing\bin\Debug\Timing.exe.config
+Y:\dotNETDev\Timing\Timing\bin\Debug\Timing.exe
+Y:\dotNETDev\Timing\Timing\bin\Debug\Timing.pdb
+Y:\dotNETDev\Timing\Timing\obj\Debug\Timing.csprojResolveAssemblyReference.cache
+Y:\dotNETDev\Timing\Timing\obj\Debug\Timing.exe
+Y:\dotNETDev\Timing\Timing\obj\Debug\Timing.pdb

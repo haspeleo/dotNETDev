@@ -33,9 +33,12 @@ namespace Delegates
 
             Console.WriteLine("\n--> tri Ascendant ");
 
-            trierEtAfficher(tableau, delegate(int [] tab) {
-                triAscendant(tab);
-            });
+            
+            //trierEtAfficher(tableau, delegate(int [] tab) {
+            //    triAscendant(tab);
+            //});
+            //ecriture condensée des 3 lignes précédentes
+            trierEtAfficher(tableau, tab => triAscendant(tab));
 
             Console.WriteLine("\n--> tri Descendant ");
 
